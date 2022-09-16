@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {"id": "Gucci", "group": 1},
+    {"id": "YSL", "group": 1},
+    {"id": "Maison Kitsune", "group": 1},
+    {"id": "Miu Miu", "group": 1},
+    {"id": "APC", "group": 1},
+    {"id": "ACW", "group": 1},
+    {"id": "Adidas", "group": 1}
+  ],
+  "links": [
+    {"source": "YSL", "target": "Gucci", "value": 1},
+    {"source": "Maison Kitsune", "target": "Gucci", "value": 8},
+    {"source": "Miu Miu", "target": "Gucci", "value": 10},
+    {"source": "Miu Miu", "target": "Maison Kitsune", "value": 6},
+    {"source": "APC", "target": "Gucci", "value": 1},
+    {"source": "ACW", "target": "Gucci", "value": 1},
+    {"source": "Adidas", "target": "Gucci", "value": 1}
+  ]
+}
